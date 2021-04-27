@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block content %}
+<style type =text/css>
+	.container{
+      background-image: url("https://assetsw.bus.com/content/uploads/2018/06/15111829/Coach-Bus-Rentals-1.jpg");
+      background-position: cover;
+      position : fixed;
+      top :20%;
+      left : 100px;
+      right : 100%;
+      width: 2000px;
+      height: 500px;
+      margin : 0;
+      background-size : cover;
+  }
+ 
+  .container .background-image{
+      min-height : 100%;
+      min-width :  1024%;
+      width : 100%;
+      height: auto;
+      position : fixed;
+      top : 0;
+      left : 0;
+      right : 0;
+      bottom : 0;
+      -moz-background-size: cover;
+      -o-background-size : cover;
+      -webkit-background-size : cover;
+  }
+
+
+</style>
+<center class= "container"><h1>Welcome to <i>PR</i> Bus Bookings!</h1></center>
+{% endblock %}
+
